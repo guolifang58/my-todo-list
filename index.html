@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的待办清单</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📝 我的待办清单</h1>
+
+    <div class="input-area">
+      <input type="text" id="todo-input" placeholder="想做什么?输入后按回车或点击添加按钮" maxlength="50">
+      <button id="add-btn">添加</button>
+    </div>
+
+    <ul id="todo-list"></ul>
+
+    <div class="footer">
+      <span id="count">共 0 项,已完成 0 项</span>
+      <button id="clear-btn">清除已完成</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
